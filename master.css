@@ -1,5 +1,19 @@
-body {
-background-color: white;
+@media (min-width : 940px) {
+    body {
+     background: #F8E0DD;
+    }
+  }
+
+
+#hero {
+  min-height: 30vh;
+  background: url('images/portrait.png') top center no-repeat;
+   background-size: contain;
+   padding: 4em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
 }
 
 section{
@@ -101,12 +115,8 @@ justify-content: space-around;
   z-index: 998;
 }
 
-@media (min-width : 640px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-  }
+
+
   #main-menu {
     position: static;
         background: transparent;
@@ -129,11 +139,7 @@ h2 {
   text-align: center;
 }
 
-@media (min-width : 940px) {
-  body {
-    background: white;
-  }
-}
+
 
 #whenidream {
  pour modifier qu'une image
