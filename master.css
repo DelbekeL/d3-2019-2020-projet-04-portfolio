@@ -3,7 +3,9 @@
      background: #F8E0DD;
     }
   }
-
+  img{
+    min-width: 30vh;
+  }
 
 #hero {
   min-height: 30vh;
