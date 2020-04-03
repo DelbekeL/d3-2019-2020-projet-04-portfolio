@@ -4,6 +4,7 @@ body{
 @media (min-width : 940px) {
     body {
      background: white;
+
     }
   }
 
@@ -13,44 +14,24 @@ section{
   min-height: 98vh;
 }
 
-img{
-  width: 40vh;
-  display: flex;
-  padding: 1em;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-size: contain;
-}
 
-p{
-    margin-left: 30em;
-    margin-right: 5em;
-      text-align: justify;
-}
-
-div#portraitstudio {
-
-width: 40vh;
-  height: 3px;
-  display: flex;
-  align-items: center;
-  flex-direction:column;
-  justify-content: space-between;
-  padding: 3em;
-  margin-bottom: 2em;
-  background-size: contain;
-}
-
-#hero {
-   background-size: contain;
+#hero img {
    padding: 1em;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
+   height: 400px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
+p{
+    margin-left: 6.5em;
+    margin-right: 6.5em;
+      text-align: justify;
+    margin-bottom: 10em;
+}
 
 
 figure{
@@ -89,6 +70,8 @@ justify-content: space-around;
   height: 50%;
   transition: 3s all ease;
   z-index: 999;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main-menu:target {
@@ -104,7 +87,6 @@ justify-content: space-around;
   background: rgba(240, 339, 255, 0.5);
   padding: inherit;
   margin: 2em;
-  text-align: center;
   margin-bottom: 1px;
 }
 
@@ -151,7 +133,7 @@ justify-content: space-around;
   #main-menu {
     position: static;
         background: transparent;
-        width: 60%;
+        width: 50%;
   }
   .menu-toggle {
     display: none;
@@ -162,6 +144,25 @@ justify-content: space-around;
   #main-menu ul {
     display: flex;
     justify-content: flex-end;
-    margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
   }
-}
+
+  #portraitstudio img {
+    padding: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      background-size: contain;
+
+  }
+
+  #contact {
+    margin-left: auto;
+    margin-right: auto;
+  }
