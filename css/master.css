@@ -3,9 +3,10 @@ body{
 }
 @media (min-width : 940px) {
     body {
-     background: #F8E0DD;
+     background: white;
     }
   }
+
 
 section{
   border-bottom: #D2D2D2 6px solid;
@@ -22,6 +23,25 @@ img{
   background-size: contain;
 }
 
+p{
+    margin-left: 30em;
+    margin-right: 5em;
+      text-align: justify;
+}
+
+div#portraitstudio {
+
+width: 40vh;
+  height: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 3em;
+  margin-bottom: 2em;
+  background-size: contain;
+}
+
 #hero {
    background-size: contain;
    padding: 1em;
@@ -30,6 +50,8 @@ img{
    align-items: center;
    justify-content: space-around;
 }
+
+
 
 figure{
   margin-bottom: 1em;
@@ -52,7 +74,6 @@ justify-content: space-around;
 }
 
 .project-feature {
-  border: 2px solid #000;
   margin: 1em;
   padding: 1em;
   flex-basis: 320px;
@@ -75,11 +96,15 @@ justify-content: space-around;
   background: white;
 }
 
+
+
 #main-menu ul a {
   display: block;
   color: rgba(0, 0, 0, 1);
   background: rgba(240, 339, 255, 0.5);
-  padding: 1em;
+  padding: inherit;
+  margin: 2em;
+  text-align: center;
   margin-bottom: 1px;
 }
 
@@ -87,10 +112,8 @@ justify-content: space-around;
 .menu-toggle {
   display: block;
   border: 1px solid #000;
-  border-radius: 6px;
   padding: 1em;
   max-width: 120px;
-  text-align: center;
 }
 
 .close-menu {
@@ -140,11 +163,5 @@ justify-content: space-around;
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
-  }
-}
-
-@media (min-width : 940px) {
-  body {
-    background: white;
   }
 }
