@@ -147,22 +147,26 @@ justify-content: space-around;
 margin-left: auto;
 margin-right: auto;
   }
+#portraitstudio{
+  max-width: 840px;
+  margin: 0 auto;
 
+}
   #portraitstudio img {
     padding: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 650px;
-    margin-left: auto;
-    margin-right: auto;
-      margin-bottom: 2em;
-      margin-top: 2em;
-      background-size: contain;
-
+ width: 100%;
   }
 
   #contact {
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+
+  #contact img{
+  justify-content: space-around;
+  padding: inherit;
+  flex-direction: column;
+  height: 100px;
   }
